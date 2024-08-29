@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ElectroHome Appliances</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Seções que posso vir a introduzir: Featured Products, Our Best Sellers, Summer/Winter Sales -->
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container">
+                <a class="navbar-brand text-light" href="/index.html">ElectroHome</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#products">Produtos</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#services">Serviços</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#products">Campanhas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Imagem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Áudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#camara">Câmaras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#informatica">Informática</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#telemoveis">Telemóveis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eletrodomesticos">Eletrodomésticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#peqDomesticos">Peq Domésticos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#climatizacao">Climatização</a>
+                        </li> -->
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#about">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#contacts">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="text-white text-center">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#heroCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/1600x400" class="d-block w-100" alt="Hero Image 1" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/1600x400" class="d-block w-100" alt="Hero Image 2" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/1600x400" class="d-block w-100" alt="Hero Image 3" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Campaign Cards Section -->
+        <section id="campaigns" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-4 text-uppercase">campanha lg</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="banner my-5 bg-primary text-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="https://placehold.co/450" alt="Banner Image" class="banner-image" />
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="mb-3">Pele radiante para um verão inesquecível!</h2>
+                        <p class="lead mb-3">
+                            Com as depiladoras Rowenta, diga adeus aos pelos indesejados e aproveite ao máximo os dias quentes. Tecnologia avançada
+                            para uma depilação suave e eficiente, deixando sua pele macia e pronta para qualquer ocasião. Sinta-se confiante e livre
+                            para brilhar neste verão!
+                        </p>
+                        <p class="mb-0">#Rowenta #Depilação #Verão #PeleMacia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Products Section (Added back) -->
+        <section id="our-products" class="my-5">
+            <div class="container">
+                <!-- <h2 class="mb-4 text-uppercase"></h2> -->
+                <div class="row row-cols-5">
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50" class="card-img-top" alt="TV" />
+                            <div class="card-body">
+                                <h5 class="card-title">Campanhas</h5>
+                                <!-- <p class="card-text">Experience stunning picture quality with our range of 4K and 8K smart TVs.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Radio" />
+                            <div class="card-body">
+                                <h5 class="card-title">Imagem</h5>
+                                <!-- <p class="card-text">Enjoy crystal-clear audio with our selection of modern digital radios.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Appliances" />
+                            <div class="card-body">
+                                <h5 class="card-title">Áudio</h5>
+                                <!-- <p class="card-text">Discover our wide range of efficient and stylish home appliances.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="TV" />
+                            <div class="card-body">
+                                <h5 class="card-title">Câmaras</h5>
+                                <!-- <p class="card-text">Experience stunning picture quality with our range of 4K and 8K smart TVs.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Radio" />
+                            <div class="card-body">
+                                <h5 class="card-title">Informática</h5>
+                                <!-- <p class="card-text">Enjoy crystal-clear audio with our selection of modern digital radios.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Appliances" />
+                            <div class="card-body">
+                                <h5 class="card-title">Telemóveis</h5>
+                                <!-- <p class="card-text">Discover our wide range of efficient and stylish home appliances.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="TV" />
+                            <div class="card-body">
+                                <h5 class="card-title">Eletrodomésticos</h5>
+                                <!-- <p class="card-text">Experience stunning picture quality with our range of 4K and 8K smart TVs.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Radio" />
+                            <div class="card-body">
+                                <h5 class="card-title">Peq. Domésticos</h5>
+                                <!-- <p class="card-text">Enjoy crystal-clear audio with our selection of modern digital radios.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <img src="https://placehold.co/50x50" class="card-img-top" alt="Appliances" />
+                            <div class="card-body">
+                                <h5 class="card-title">Climatização</h5>
+                                <!-- <p class="card-text">Discover our wide range of efficient and stylish home appliances.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Promotion Section -->
+        <!-- <div class="container my-5">
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://placehold.co/600x300" class="card-img-left img-fluid" alt="Promotion image" />
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body d-flex flex-column h-100">
+                            <h5 class="card-title">Promotion title</h5>
+                            <p class="card-text">
+                                Et ipsum iure amet cupidatat mollit exercitation consequat duis aliquip. Reprehenderit Lorem veniam pariatur esse
+                                pariatur in aute tempor au
+                            </p>
+                            <p class="card-text"><small class="text-muted">*eius dolorum iste yoluntur veht anim adipiscing</small></p>
+                            <button class="btn btn-secondary mt-auto align-self-start">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Campaign Cards Section -->
+        <section id="campaigns" class="py-5 bg-primary text-light">
+            <div class="container">
+                <h2 class="mb-4 text-uppercase">campanha de verão</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card campaign-card">
+                            <img
+                                src="https://images.unsplash.com/photo-1588182464121-05a6397e3a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVsZW1vdmVpc3xlbnwwfHwwfHx8MA%3D%3D"
+                                class="card-img-top"
+                                alt="Campaign 1"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Summer Clearance</h5>
+                                <p class="card-text">Get up to 50% off on selected summer appliances.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card campaign-card">
+                            <img
+                                src="https://images.unsplash.com/photo-1588182464121-05a6397e3a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVsZW1vdmVpc3xlbnwwfHwwfHx8MA%3D%3D"
+                                class="card-img-top"
+                                alt="Campaign 2"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Home Bundle</h5>
+                                <p class="card-text">Save 20% when you buy 3 or more smart home devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card campaign-card">
+                            <img
+                                src="https://images.unsplash.com/photo-1588182464121-05a6397e3a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVsZW1vdmVpc3xlbnwwfHwwfHx8MA%3D%3D"
+                                class="card-img-top"
+                                alt="Campaign 3"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">TV & Soundbar Combo</h5>
+                                <p class="card-text">Free soundbar with any 65"+ TV purchase.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card campaign-card">
+                            <img
+                                src="https://images.unsplash.com/photo-1588182464121-05a6397e3a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVsZW1vdmVpc3xlbnwwfHwwfHx8MA%3D%3D"
+                                class="card-img-top"
+                                alt="Campaign 4"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Kitchen Upgrade</h5>
+                                <p class="card-text">30% off on all kitchen appliances this month.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Section (Added back) -->
+        <section id="brands" class="bg-light py-5">
+            <div class="container">
+                <!-- <h2 class="text-center mb-4 text-uppercase"></h2> -->
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/743/365/png-transparent-lg-corp-lg-electronics-consumer-electronics-lg-logo-television-electronics-text-thumbnail.png"
+                            alt="Brand 1"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/810/451/png-transparent-samsung-logo-samsung-galaxy-s9-samsung-electronics-logo-samsung-kies-samsung-blue-text-trademark-thumbnail.png"
+                            alt="Brand 2"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/820/131/png-transparent-robert-bosch-gmbh-logo-industry-appliances-miscellaneous-company-text-thumbnail.png"
+                            alt="Brand 3"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/33/175/png-transparent-tefal-logo-household-brands-logos-thumbnail.png"
+                            alt="Brand 4"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/847/596/png-transparent-cooking-ranges-smeg-smeg-victoria-sfp6925npze-oven-carbon-filtering-oven-kitchen-text-logo-thumbnail.png"
+                            alt="Brand 5"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                    <div class="col-4 col-md-2 mb-3 mb-md-0">
+                        <img
+                            src="https://w7.pngwing.com/pngs/159/155/png-transparent-rowenta-silence-force-cyclonic-4a-home-appliance-vacuum-cleaner-hair-dryers-others-miscellaneous-text-logo-thumbnail.png"
+                            alt="Brand 6"
+                            class="img-fluid brand-logo"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discounted Products Carousel -->
+        <section id="discounted-products" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 text-uppercase">Ofertas especiais</h2>
+                <div id="discountCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 1" />
+                                        <span class="discount-badge">-20%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€799.99</h5>
+                                            <p class="card-text">55" 4K Smart TV</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 2" />
+                                        <span class="discount-badge">-15%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€349.99</h5>
+                                            <p class="card-text">French Door Refrigerator</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 3" />
+                                        <span class="discount-badge">-25%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€199.99</h5>
+                                            <p class="card-text">Wireless Soundbar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 4" />
+                                        <span class="discount-badge">-30%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€69.99</h5>
+                                            <p class="card-text">Smart Home Hub</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 5" />
+                                        <span class="discount-badge">-10%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€899.99</h5>
+                                            <p class="card-text">Front Load Washer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img src="https://placehold.co/20" class="card-img-top" alt="Product 6" />
+                                        <span class="discount-badge">-40%</span>
+                                        <div class="card-body">
+                                            <h5 class="card-title">€29.99</h5>
+                                            <p class="card-text">Bluetooth Speaker</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#discountCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#discountCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Products Section (Added back) -->
+        <section id="our-products" class="my-5">
+            <div class="container">
+                <h2 class="mb-4 text-uppercase">Climatização</h2>
+                <div class="row">
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <a href="/productDetails.html" class="card">
+                            <img src="https://placehold.co/150x200" class="card-img-top" alt="Product 1" />
+                            <!-- <span class="discount-badge">-20%</span> -->
+                            <div class="card-body">
+                                <h5 class="card-title">€799.99</h5>
+                                <p class="card-text">55" 4K Smart TV</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="banner mt-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="https://placehold.co/450" alt="Banner Image" class="banner-image" />
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="mb-3">Verão, sol e waffles fresquinhos!</h2>
+                        <p class="lead mb-3">
+                            Compartilhe momentos inesquecíveis com a família e amigos com a máquina de waffles Braun. Fácil de usar e super rápida,
+                            ela prepara waffles deliciosos em poucos minutos. Perfeito para um brunch de fim de semana, um lanche da tarde ou até
+                            mesmo uma sobremesa especial.
+                        </p>
+                        <p class="mb-0">#Braun #Waffles #Verão #Família</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <!-- <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">About ElectroHome</h2>
+                <p>
+                    ElectroHome has been a trusted name in home electronics and appliances for over 30 years. We pride ourselves on offering
+                    top-quality products from leading brands, coupled with exceptional customer service and competitive prices.
+                </p>
+            </div>
+        </section> -->
+
+        <!-- Contact Section -->
+        <!-- <section id="contact" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer -->
+        <footer class="mt-auto py-5 bg-primary text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5>Sobre nós</h5>
+                        <ul class="list-unstyled">
+                            <li class="py-3"><a href="#" class="text-decoration-none text-light">Home</a></li>
+                            <li class="py-3"><a href="#" class="text-decoration-none text-light">Loja</a></li>
+                            <li class="py-3"><a href="#" class="text-decoration-none text-light">Sobre Nós</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5>Ajuda</h5>
+                        <ul class="list-unstyled">
+                            <li class="py-3"><a href="#" class="text-decoration-none text-light">Envios & Dvoluções</a></li>
+                            <li class="py-3"><a href="#" class="text-decoration-none text-light">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5>Contacto</h5>
+                        <ul class="list-unstyled">
+                            <li class="py-3">Telemóvel:</li>
+                            <li class="py-3">(+365) 21 456 7895</li>
+                            <li class="py-3">Email:</li>
+                            <li class="py-3">nomedaempresa@email.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5>Receba alertas sobre campanhas</h5>
+                        <p>Duis ea tempor commodo amet reprehende</p>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Input your email" aria-label="Email" />
+                            <button class="btn btn-secondary" type="button">Subscribe</button>
+                        </div>
+                        <div class="mt-3">
+                            <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <small>&copy; 2022 Brand, Inc. &bull; Privacy &bull; Terms &bull; Sitemap</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
